@@ -1,0 +1,16 @@
+# The Streamlit app lives in its own repo: https://github.com/JMKniss/we-are-how-u-mean
+# ff_app/ is excluded here to prevent it being tracked as a nested submodule.
+ff_app/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Data files not tracked in this repo
+*.asv
+Archive/
+Images/
+2024/
+*.xlsx
